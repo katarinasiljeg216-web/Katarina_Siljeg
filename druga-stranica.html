@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Druga stranica</title>
+    <link rel="stylesheet" href="stilovi-druga-stranica.css" />
+  </head>
+  <body>
+    <div class="kutija">
+      <h1>Druga stranica</h1>
+      <h2>Ovdje su jednostavni multimedijalni elementi.</h2>
+
+      <nav>
+        <ul>
+          <li><a href="index.html">Prva stranica</a></li>
+          <li><a href="#">Druga stranica</a></li>
+          <li>
+            <a href="https://www.pinterest.com">Vanjska stranica</a>
+          </li>
+          <li><a href="multimedija/10_vježba_HTML.pdf">PDF dokument</a></li>
+        </ul>
+      </nav>
+
+      <h3>Galerija slika</h3>
+      <div class="galerija">
+        <img src="multimedija/moja-slika-1.jpeg" />
+        <img src="multimedija/moja-slika-2.jpeg" />
+        <img src="multimedija/moja-slika-3.jpeg" />
+      </div>
+
+      <h3>Video</h3>
+      <div class="sadrzaj">
+        <video width="420" height="236" controls>
+          <source src="multimedija/video.mp4" type="video/mp4" />
+          Vaš preglednik ne podržava video element.
+        </video>
+      </div>
+
+      <h3>YouTube video</h3>
+      <div class="sadrzaj">
+        <iframe
+          width="420"
+          height="236"
+          src="https://www.youtube.com/embed/ebjWBSpUYQ0"
+          frameborder="0"
+          allowfullscreen
+        ></iframe>
+      </div>
+
+      <h3>Audio (manje od 30 sekundi)</h3>
+      <div class="sadrzaj">
+        <audio controls>
+          <source src="multimedija/audio.mp3" type="audio/mpeg" />
+          Tvoj browser ne podržava ovaj format audio datoteke
+        </audio>
+      </div>
+
+      <p class="link-natrag">
+        <a href="index.html">Povratak na početnu stranicu</a>
+      </p>
+    </div>
+  </body>
+</html>
